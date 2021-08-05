@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: sample-app
+  namespace: jenkins #Change
 spec:
   ports:
   - port: 80
